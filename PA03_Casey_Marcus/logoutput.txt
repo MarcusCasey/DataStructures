@@ -1,0 +1,142 @@
+Open City File
+count cities
+Atlanta has the destinations: {(No Destinations)}
+Austin has the destinations: {(No Destinations)}
+Boise has the destinations: {(No Destinations)}
+Boston has the destinations: {(No Destinations)}
+Buffalo has the destinations: {(No Destinations)}
+Chicago has the destinations: {(No Destinations)}
+Cincinnati has the destinations: {(No Destinations)}
+Cleveland has the destinations: {(No Destinations)}
+Columbia has the destinations: {(No Destinations)}
+Dallas has the destinations: {(No Destinations)}
+Denton has the destinations: {(No Destinations)}
+Denver has the destinations: {(No Destinations)}
+Detroit has the destinations: {(No Destinations)}
+Everett has the destinations: {(No Destinations)}
+Glendale has the destinations: {(No Destinations)}
+Honolulu has the destinations: {(No Destinations)}
+Houston has the destinations: {(No Destinations)}
+Indianapolis has the destinations: {(No Destinations)}
+Irvine has the destinations: {(No Destinations)}
+Los Angeles has the destinations: {(No Destinations)}
+Miami has the destinations: {(No Destinations)}
+Nashville has the destinations: {(No Destinations)}
+Oakland has the destinations: {(No Destinations)}
+Reno has the destinations: {(No Destinations)}
+Salt Lake City has the destinations: {(No Destinations)}
+San Francisco has the destinations: {(No Destinations)}
+Tampa has the destinations: {(No Destinations)}
+Washington has the destinations: {(No Destinations)}
+Reading : "Atlanta, Chicago	701 200"
+Read from: Atlanta Read to: Chicago
+Reading : "Boise, Chicago	702 350"
+Read from: Boise Read to: Chicago
+Reading : "Boston, Chicago	504 120"
+Read from: Boston Read to: Chicago
+Reading : "Chicago, Atlanta	503 210"
+Read from: Chicago Read to: Atlanta
+Reading : "Chicago, Boise	703 200"
+Read from: Chicago Read to: Boise
+Reading : "Chicago, Boston	501 120"
+Read from: Chicago Read to: Boston
+Reading : "Chicago, Houston	708 140"
+Read from: Chicago Read to: Houston
+Reading : "Cleveland, Houston	709 130"
+Read from: Cleveland Read to: Houston
+Reading : "Columbia, Houston	710 140"
+Read from: Columbia Read to: Houston
+Reading : "Dallas, Houston	711 110"
+Read from: Dallas Read to: Houston
+Reading : "Denton, Houston	712 100"
+Read from: Denton Read to: Houston
+Reading : "Denver, Houston	713 130"
+Read from: Denver Read to: Houston
+Reading : "Houston, Glendale	750 145"
+Read from: Houston Read to: Glendale
+Reading : "Houston, Cleveland	801 150"
+Read from: Houston Read to: Cleveland
+Reading : "Houston, Columbia	802 162"
+Read from: Houston Read to: Columbia
+Reading : "Houston, Dallas	803 150"
+Read from: Houston Read to: Dallas
+Reading : "Houston, Denton	804 184"
+Read from: Houston Read to: Denton
+Reading : "Houston, Denver	807 190"
+Read from: Houston Read to: Denver
+Reading : "Houston, Chicago	808 175"
+Read from: Houston Read to: Chicago
+Reading : "Indianapolis, Los Angeles	809 160"
+Read from: Indianapolis Read to: Los Angeles
+Reading : "Los Angeles, Indianapolis	810	50"
+Read from: Los Angeles Read to: Indianapolis
+Reading : "Miami, Los Angeles	784 320"
+Read from: Miami Read to: Los Angeles
+Reading : "Miami, Atlanta	774 246"
+Read from: Miami Read to: Atlanta
+Reading : "Atlanta, Miami	821 245"
+Read from: Atlanta Read to: Miami
+Reading : "Los Angeles, Miami	823 134"
+Read from: Los Angeles Read to: Miami
+Reading : "San Francisco, Los Angeles	824 132"
+Read from: San Francisco Read to: Los Angeles
+Reading : "Los Angeles, San Francisco	819 108"
+Read from: Los Angeles Read to: San Francisco
+Reading : "Tampa, Los Angeles	178 184"
+Read from: Tampa Read to: Los Angeles
+Reading : "Los Angeles, Tampa	183 102"
+Read from: Los Angeles Read to: Tampa
+Reading : "Washington, Los Angeles	586 300"
+Read from: Washington Read to: Los Angeles
+Reading : "Los Angeles, Washington	541 310"
+Read from: Los Angeles Read to: Washington
+Opened Request File:
+Reading "Los Angeles, Houston"
+Read from: Los Angeles Read to: Houston
+next is Los Angeles(19) to Houston(16)
+Contents of stack after isPath: 
+Route: Los Angeles -> Miami -> Atlanta -> Chicago -> HoustonNumber of stops: 5
+Found route
+Reading "Glendale, Houston"
+Read from: Glendale Read to: Houston
+next is Glendale(14) to Houston(16)
+Contents of stack after isPath: 
+Route: ERROR: NONENumber of stops: 0
+Cannot Find route
+Reading "Dallas, Austin"
+Read from: Dallas Read to: Austin
+next is Dallas(9) to Austin(1)
+Contents of stack after isPath: 
+Route: ERROR: NONENumber of stops: 0
+Cannot Find route
+Reading "Cleveland, Chicago"
+Read from: Cleveland Read to: Chicago
+next is Cleveland(7) to Chicago(5)
+Contents of stack after isPath: 
+Route: Cleveland -> Houston -> ChicagoNumber of stops: 3
+Found route
+Reading "Indianapolis, San Francisco"
+Read from: Indianapolis Read to: San Francisco
+next is Indianapolis(17) to San Francisco(25)
+Contents of stack after isPath: 
+Route: Indianapolis -> Los Angeles -> San FranciscoNumber of stops: 3
+Found route
+Reading "San Francisco, Washington"
+Read from: San Francisco Read to: Washington
+next is San Francisco(25) to Washington(27)
+Contents of stack after isPath: 
+Route: San Francisco -> Los Angeles -> WashingtonNumber of stops: 3
+Found route
+Reading "Boston, Columbia"
+Read from: Boston Read to: Columbia
+next is Boston(3) to Columbia(8)
+Contents of stack after isPath: 
+Route: Boston -> Chicago -> Houston -> ColumbiaNumber of stops: 4
+Found route
+Reading "Miami, Denver"
+Read from: Miami Read to: Denver
+next is Miami(20) to Denver(11)
+Contents of stack after isPath: 
+Route: Miami -> Atlanta -> Chicago -> Houston -> DenverNumber of stops: 5
+Found route
+Good Run, Ending
